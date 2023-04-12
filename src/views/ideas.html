@@ -1,0 +1,34 @@
+
+{% extends "layout.html" %}
+
+{% block title %}
+<title>Ideias - Casa Criativa </title>
+{% endblock title %}
+
+
+{% set bodyId = "page-ideas" %}
+{% block content %}
+
+    <header>
+      <a href="/">
+        <img src="logo.png" alt="Logo Casa criativa">
+      </a>
+      <nav>
+        <li><a href="/">Inicio</li></a>
+        <li><a href="#" class="button" onclick="onOff()">Nova Ideia</li></a>
+      </nav>
+    </header>
+    <section id="title">
+      <p>em exibição</p>
+      <h1>Ideias</h1>
+    </section>
+    <main>
+      <section id="ideas">
+        {% include "allIdeas.html" %}
+      </section>
+    </main>
+    <footer>
+      <p id="footer">Com ♥️ <a href="https://gist.github.com/savio-fju" target="_blank">Sávio de Paula</a> </p>
+    </footer>
+  
+    {% endblock%}
