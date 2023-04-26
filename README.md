@@ -18,7 +18,7 @@
 <br>
 
 <p align="center">
-  <img alt="move.on" src./public/tela.png" width="100%">
+  <img alt="Casa Criativa" src="./public/tela.png" width="100%">
 </p>
 
 ## 🚀 Tecnologias
@@ -27,11 +27,16 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 - HTML
 - CSS
-<!-- - JavaScript
- -->
+- JavaScript
+- Node
+
 ## 💻 Projeto
 
-O Move.on é uma aplicação baseada na técnica de estudos "Pomodoro", nela você irá entrar com sua conta GitHub e encontrará vários desafios, e na medida que concluir os desafios irá subir de nível.
+Ficar em casa em períodos longos, não deve ser nada fácil.
+
+Iremos catalogar ideias, brincadeiras, jogos, filmes, livros, cursos, dicas e tudo que for necessário para tornar esse momento mais interessante.
+
+Comece clicando em ver ideias para ver as ideias cadastradas e contribua adicioando a sua ideia.
 
 ## 🔖 Layout
 
